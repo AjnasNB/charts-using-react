@@ -1,42 +1,49 @@
-.body{
+.body {
   background-color: #ecda86;
   text-align: center;
   display: flex;
   flex-direction: column;
-  
+}
 
-}
-.App {
-  text-align: center;
-  display:flex;
-  justify-content: center;
- 
-  
-}
-.s1{
-  text-align: center;
-  text-decoration: underline;
-  color: #ce2222;
-  
-}
-.table{
+.table {
   align-items: center;
-text-align: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 5%;
-  text-decoration: solid;
+}
 
-}
-.s2{
-text-align: center;
-  text-decoration: underline;
-  color: #ce2222;
-}
-.s3{
+.s1 {
   text-align: center;
   text-decoration: underline;
   color: #ce2222;
 }
 
+.s2 {
+  text-align: center;
+  text-decoration: underline;
+  color: #ce2222;
+}
+
+.s3 {
+  text-align: center;
+  text-decoration: underline;
+  color: #ce2222;
+}
+
+/* Responsive styles */
+
+@media only screen and (min-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .table {
+    padding-top: 10%;
+  }
+}
