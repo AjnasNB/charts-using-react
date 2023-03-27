@@ -1,4 +1,4 @@
-# Checkout the react app https://charts.ajnasnb.me/
+# Checkout the responsive react app https://charts.ajnasnb.me/
 
 # Getting Started with Create React App
 
